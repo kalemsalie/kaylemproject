@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body {height: 100%;
+    background-image: url('blue.gif');
+    background-size:100%;
+    overflow-x:hidden;
+   
+}
+
+html{
+    height:100%
+}
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Archivo', sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #2959C6;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+    padding-left: 40%;
+    padding-right: 40%;
+    height:100%
+  }
+
+  
+
+ #mypic{
+     width:250px;
+     height:250px;
+
+ }
+  
+
+ h2, h3 {
+     color: white;
+     font-family: 'Istok Web', sans-serif;
+    
+
+ }
+
+ .icons{
+     display: flex;
+     flex-direction: row;
+    border: solid;
+    justify-content: start;
+     
+ }
+
+ .icons > div{
+   margin-right: 0.5em;
+ }
+
+ 
+ 
+ .icon{
+     width: 40px;
+     height: 40px;
+     
+
+ }
+
+
+  
+ 
+  
+  
